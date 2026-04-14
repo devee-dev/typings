@@ -42,7 +42,7 @@ class TypingsBuilder extends Builder {
                 .toList()
           );
 
-      final exports = lib.libraryExports.toList();
+      final exports = lib.exportedLibraries.toList();
 
       for (final exp in exports) {
         final anns = typings.annotationsOf(exp);

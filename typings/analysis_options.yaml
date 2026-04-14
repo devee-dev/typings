@@ -19,7 +19,11 @@ include: package:lints/recommended.yaml
 #   rules:
 #     - camel_case_types
 
-analyzer: 
+analyzer:
+  errors:
+    unused_element: ignore
+    doc_directive_unknown: ignore
+    unnecessary_cast: ignore
 #   exclude:
 #     - path/to/excluded/files/**
 
