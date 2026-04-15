@@ -10,7 +10,7 @@ environment:
 
 dependencies:
   build: any
-  js: ^0.7.1
+  js: ^0.6.1
   source_gen: any
   analyzer: ">=8.1.0 <11.0.0" # added >= and <= signs to make it compatible in all flutter 3.24.3
 
