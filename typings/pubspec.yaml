@@ -10,14 +10,14 @@ environment:
   sdk: ">=3.3.0 <4.0.0"
 
 dependencies:
-  code_builder:
   build: any
   js: ^0.6.1
   source_gen: any
   analyzer: ">=8.1.0 <11.0.0" # added >= and <= signs to make it compatible in all flutter 3.24.3
-  ts2dart:
 
 dev_dependencies:
+  ts2dart:
+  code_builder:
   build_web_compilers: ^4.0.11
   build_runner: ^2.4.13
   build_daemon: ^4.0.2
