@@ -8820,7 +8820,16 @@ extension IInline22$Typings on IInline22 {
 /// Use the {@link workspace.applyEditapplyEdit}-function to apply a workspace edit.
 @_i1.JS()
 @_i1.staticInterop
-class WorkspaceEdit {}
+class WorkspaceEdit {
+    factory WorkspaceEdit()=> _i5.callConstructor(
+        _declaredWorkspaceEdit,
+        [],
+      );
+}
+_i2.Object get _declaredWorkspaceEdit => _i5.getProperty(
+      _self,
+      'WorkspaceEdit',
+    );
 
 extension WorkspaceEdit$Typings on WorkspaceEdit {
   /// The number of affected resources of textual or resource changes.
